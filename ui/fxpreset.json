@@ -1,0 +1,16 @@
+{
+    "preset": [
+        {
+            "name": "Tx0ndev_Shake1",
+            "type": "shake",
+            "image": "../assets/Screenshot 2025-04-07 015727.png",
+            "file": "tx0ndev_shake1.ffx" 
+        },
+        {
+            "name": "Tx0ndev_Shake2",
+            "type": "shake",
+            "image": "../assets/Screenshot 2025-04-07 015727.png",
+            "file": "tx0ndev_shake2.ffx" 
+        }
+    ]
+}
