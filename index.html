@@ -32,8 +32,14 @@
 			<div class="snow">&#10052;</div>
 		</div>
 	</div>
+
+	<div id="welcome" class="text-center tx0ndev_welcome text-dark mt-5" style="display: none;">
+		<div class="d-flex justify-content-center align-items-center vh-100">
+			<h1 class="fw-bold typewriter">Tx0ndev</h1>
+		</div>
+	</div>
 	
-	<div class="container mt-5" data-aos="zoom-in" data-aos-duration="700">
+	<div  id="main-content" class="container mt-5" data-aos="zoom-in" data-aos-duration="900" style="display: none;">
 		<div class="text-center">
 			<img src="https://miro.medium.com/v2/resize:fit:1400/1*QtX9tWcVWv1YFYr_rFEjbA.gif" width="385px"
 				height="385px" class="d-block mx-auto mb-3" alt="">
@@ -51,7 +57,16 @@
 	<script src="js/main.js"></script>
 
 	<script>
-		AOS.init();
+		
+		setTimeout(() => {
+			document.getElementById("welcome").style.display = "block";
+			
+			setTimeout(() => {
+				document.getElementById("main-content").style.display = "block";
+				document.getElementById("welcome").style.display = "none";
+				AOS.init();
+			}, 1500);
+		}, 300);
 	</script>
 </body>
 

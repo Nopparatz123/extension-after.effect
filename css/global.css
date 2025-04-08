@@ -152,3 +152,45 @@ body {
 .toast.show {
     transform: translateX(0);
 }
+
+.tx0ndev_welcome h1{
+    font-size: 70px;
+    margin-bottom: 150px;
+    background: linear-gradient(to right, #67b3ff, #a86bff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typewriter {
+    display: inline-block;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: 3px solid rgb(0, 0, 0);
+    width: 0;
+    max-width: fit-content;
+    animation: typewriter 3.6s steps(30, end) 0s forwards, blink 0.75s step-end infinite;
+  }
+  
+  @keyframes blink {
+    30% {
+      border-color: transparent;
+    }
+  }
