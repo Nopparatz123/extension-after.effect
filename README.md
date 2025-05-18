@@ -1,2 +1,2 @@
-# tx0ndev_extesionAftereffect
-extension_aftereffect applypreset
+# extesion-aftereffect
+extesion applypreset
